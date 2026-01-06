@@ -1,5 +1,5 @@
 ```
-git clone https://github.com/atulkamble/ec2-grafana-prometheus-node-exporter.git
+git clone https://github.com/kunalb96/Ec2-Grafana-Prometheus-Node-Exporter.git
 cd ec2-grafana-prometheus-node-exporter/terraform
 
 terraform init
@@ -22,8 +22,8 @@ sudo systemctl status grafana-server
 grafana-server --version
 ```
 ```
-scp -i /Users/atul/Downloads/key.pem.pem \
-/Users/atul/Downloads/prometheus-3.7.3.darwin-amd64.tar.gz \
+scp -i /Users/KUNAL/Downloads/key.pem.pem \
+/Users/KUNAL/Downloads/prometheus-3.7.3.darwin-amd64.tar.gz \
 ec2-user@3.234.211.20:/home/ec2-user/
 ```
 http://18.232.59.17:3000/
@@ -41,8 +41,8 @@ wget https://prometheus.io/download/3.7.3/2025-10-29/prometheus-3.7.3.linux-amd6
 sudo yum install collectd-write_prometheus.x86_64 -y
 
 // on mac
-scp -i /Users/atul/Downloads/key.pem.pem \
-/Users/atul/Downloads/prometheus-3.5.0.linux-amd64.tar.gz \
+scp -i /Users/KUNAL/Downloads/key.pem.pem \
+/Users/KUNAL/Downloads/prometheus-3.5.0.linux-amd64.tar.gz \
 ec2-user@34.239.160.234:/home/ec2-user/
 
 sudo tar -xvf prometheus-3.5.0.linux-amd64.tar.gz
