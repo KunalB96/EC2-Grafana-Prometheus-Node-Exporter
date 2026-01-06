@@ -1,0 +1,21 @@
+# AWS Configuration
+aws_region  = "us-east-1"
+project_name = "server"
+
+# EC2 Configuration
+instance_type     = "t3.medium"
+root_volume_size  = 30
+
+# Network Configuration
+vpc_id    = "vpc-xxxxxxxxx"
+subnet_id = "subnet-xxxxxxxxx"
+
+# Security Configuration
+# Allow access from specific IPs or use ["0.0.0.0/0"] for public access
+allowed_cidr_blocks = ["0.0.0.0/0"]
+
+# Elastic IP (optional)
+create_eip = false
+
+# Grafana Configuration
+grafana_admin_password = "Admin@123"
